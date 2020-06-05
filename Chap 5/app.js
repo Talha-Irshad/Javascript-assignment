@@ -98,14 +98,47 @@ var usd=10;
 var saudiR=25;
 var totalCurrency=(usd*104.80)+(saudiR*28);
 document.write("Total currency in PKR: "+totalCurrency+"<br>");
+document.write("<br><br>");
 
 // task 10
 var numb=12
 var result = ((numb+5)*10)/2;
 document.write("Result is "+result+"<br>");
+document.write("<br><br><br>");
 
 // task 11
 document.write("<h1>Age Calculator</h1><br>");
 var thisYear=2020;
 var birthYear=1995;
 var age=thisYear-birthYear;
+document.write("Current Year: "+thisYear);
+document.write("Birth Year: "+birthYear);
+document.write("Age: "+age);
+document.write("<br><br><br>");
+
+// task 12
+document.write("<h1>The Geometrize</h1><br>");
+document.write("<br>");
+var radius = 23;
+var circumference = 2*3.142*radius;
+var area = 3.142*Math.pow(radius,2);
+document.write("Radius of a circle: "+radius);
+document.write("circumference of a circle is: "+circumference);
+document.write("Area of circle is: "+area);
+document.write("<br><br><br>");
+
+// task 13
+document.write("<h1>Lifetime Supply Calculator</h1><br>");
+document.write("<br>");
+var snack="Chilli Milli";
+var myAge=21;
+var maxAge=80;
+var maxPerDay=2;
+var supplyLeft=((maxAge-myAge)*365)*maxPerDay;
+document.write("Favourite Snack: "+snack);
+document.write("Current Age: "+myAge);
+document.write("Estimated Maximum Age: "+maxAge);
+document.write("Amount of Snack per day: "+maxPerDay);
+document.write("You will need "+supplyLeft+" "+snack+" to last you until the ripe old age of "+maxAge);
+document.write("<br><br><br>");
+
