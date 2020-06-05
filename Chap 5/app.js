@@ -1,27 +1,27 @@
-// // task 1
-// var firstNum = +prompt("enter first number:");
-// var secondNum = +prompt("enter second number:");
-// var sum =firstNum+secondNum;
-// document.write("Sum of " + firstNum + " and " + secondNum + " is " + sum +"<br>")
+// task 1
+var firstNum = +prompt("enter first number:");
+var secondNum = +prompt("enter second number:");
+var sum =firstNum+secondNum;
+document.write("Sum of " + firstNum + " and " + secondNum + " is " + sum +"<br>")
 
-// // task 2
-// // for subtraction
-// var firstNum = +prompt("enter first number:");
-// var secondNum = +prompt("enter second number:");
-// var sub =firstNum-secondNum;
-// document.write("Subtraction of " + firstNum + " and " + secondNum + " is " + sub +"<br>");
+// task 2
+// for subtraction
+var firstNum = +prompt("enter first number:");
+var secondNum = +prompt("enter second number:");
+var sub =firstNum-secondNum;
+document.write("Subtraction of " + firstNum + " and " + secondNum + " is " + sub +"<br>");
 
-// // for multiplication
-// var firstNum = +prompt("enter first number:");
-// var secondNum = +prompt("enter second number:");
-// var mul =firstNum*secondNum;
-// document.write("Multiplication of " + firstNum + " and " + secondNum + " is " + mul +"<br>");
+// for multiplication
+var firstNum = +prompt("enter first number:");
+var secondNum = +prompt("enter second number:");
+var mul =firstNum*secondNum;
+document.write("Multiplication of " + firstNum + " and " + secondNum + " is " + mul +"<br>");
 
-// // for division
-// var firstNum = +prompt("enter first number:");
-// var secondNum = +prompt("enter second number:");
-// var divi =firstNum/secondNum;
-// document.write("Division of " + firstNum + " and " + secondNum + " is " + divi +"<br><br><br>");
+// for division
+var firstNum = +prompt("enter first number:");
+var secondNum = +prompt("enter second number:");
+var divi =firstNum/secondNum;
+document.write("Division of " + firstNum + " and " + secondNum + " is " + divi +"<br><br><br>");
 
 // task 3
 var someVariable;
@@ -111,9 +111,9 @@ document.write("<h1>Age Calculator</h1><br>");
 var thisYear=2020;
 var birthYear=1995;
 var age=thisYear-birthYear;
-document.write("Current Year: "+thisYear);
-document.write("Birth Year: "+birthYear);
-document.write("Age: "+age);
+document.write("Current Year: "+thisYear+"<br>");
+document.write("Birth Year: "+birthYear+"<br>");
+document.write("Age: "+age+"<br>");
 document.write("<br><br><br>");
 
 // task 12
@@ -122,9 +122,9 @@ document.write("<br>");
 var radius = 23;
 var circumference = 2*3.142*radius;
 var area = 3.142*Math.pow(radius,2);
-document.write("Radius of a circle: "+radius);
-document.write("circumference of a circle is: "+circumference);
-document.write("Area of circle is: "+area);
+document.write("Radius of a circle: "+radius+"<br>");
+document.write("circumference of a circle is: "+circumference+"<br>");
+document.write("Area of circle is: "+area+"<br>");
 document.write("<br><br><br>");
 
 // task 13
@@ -135,10 +135,10 @@ var myAge=21;
 var maxAge=80;
 var maxPerDay=2;
 var supplyLeft=((maxAge-myAge)*365)*maxPerDay;
-document.write("Favourite Snack: "+snack);
-document.write("Current Age: "+myAge);
-document.write("Estimated Maximum Age: "+maxAge);
-document.write("Amount of Snack per day: "+maxPerDay);
-document.write("You will need "+supplyLeft+" "+snack+" to last you until the ripe old age of "+maxAge);
+document.write("Favourite Snack: "+snack+"<br>");
+document.write("Current Age: "+myAge+"<br>");
+document.write("Estimated Maximum Age: "+maxAge+"<br>");
+document.write("Amount of Snack per day: "+maxPerDay+"<br>");
+document.write("You will need "+supplyLeft+" "+snack+" to last you until the ripe old age of "+maxAge+"<br>");
 document.write("<br><br><br>");
 
